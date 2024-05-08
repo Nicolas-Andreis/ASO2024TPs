@@ -51,6 +51,10 @@ tiempo, el valor de acumulador estaba siendo afectado por la lógica dentro
 de esos bucles adicionales, lo que resultó en un valor final diferente al 
 que obtendría sin ellos.
 
+
+### 2-a se encuentra con el nombre hamburguesas-corregio.
+
 ### 2-b Viendo la figura como sería para el problema de las hamburguesas con 2 comensales y 8 hamburgesas.
 
 ![punto2b](./TP3/WhatsApp%20Image%202024-05-07%20at%206.40.21%20PM.jpeg) 
+
