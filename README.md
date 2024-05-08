@@ -1,10 +1,10 @@
 # ASO2024TPs
 ## TP3
-### a ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es
+### 1-a ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es
 predecible?
 
-Los tiempos de ejecución difieren entre utilizar hilos (paralelismo) y 
-no utilizarlos (secuencialmente). Con hilos, las tareas pueden ejecutarse 
+Los tiempos de ejecución difieren entre utilizar hilos y 
+no utilizarlos. Con hilos, las tareas pueden ejecutarse 
 simultáneamente, lo que resulta en un tiempo total de ejecución más corto 
 en comparación con la ejecución secuencial sin hilos. En promedio, 
 en 10 ejecuciones, los tiempos fueron de aproximadamente 
@@ -12,21 +12,22 @@ en 10 ejecuciones, los tiempos fueron de aproximadamente
 5.1820766 segundos sin hilos.
 
 La diferencia de tiempo se debe a que, con hilos, mientras una tarea
- (como la tarea 2) está en espera, otras tareas pueden continuar ejecutándose.
- Esto optimiza el uso del tiempo de CPU y reduce el tiempo total de ejecución.
+está en espera, otras tareas pueden continuar ejecutándose.
+ 
 
 
-### b Comparar con un campañero el tiempo de ejecución. ¿Son iguales?
+### 1-b Comparar con un campañero el tiempo de ejecución. ¿Son iguales?
 
-Comparando con otro estudiante, sus tiempos fueron consistentes con esta 
-observación: alrededor de 
+Comparando con otro estudiante, sus tiempos fueron: 
+alrededor de 
 4.07101 segundos con hilos 
 5.17174 segundos sin hilos. 
-Estos resultados corroboran la ventaja del enfoque de hilos para
+Estos tiempos validan la ventaja de utilizar hilos para
  tareas que pueden ejecutarse en paralelo, lo que lleva a una menor duración 
 total del proceso.
 
-### c-Cuando ejecuté el archivo suma_rasta.py unas 10 veces, todo parecía estar
+### 1-c-Ejecutar el archivo suma_rasta.py unas 10 veces, luego descomentar(borrar el #) las líneas 11,12,19 y 20 guardarlo y ejecutarlo otras 10veces. ¿Qué pasó? ¿Por qué?
+Cuando ejecuté el archivo suma_rasta.py unas 10 veces, todo parecía estar
  bien. Pero luego me pidieron que descomentara esas líneas específicas en 
 el código y lo ejecutara otras 10 veces más.
 
@@ -40,8 +41,7 @@ uno se ejecutaba mil veces. Aunque cada iteración de estos bucles no hacía
 nada relevante, sumaba tiempo total de ejecución del programa.
 
 Entonces, en resumen, el tiempo de ejecución aumentó porque añadí estas 
-iteraciones adicionales que no eran necesarias para la lógica principal 
-del programa.
+iteraciones adicionales.
 Ahora, respecto al cambio en el valor final, ocurrió debido a este 
 tiempo adicional de ejecución. Al introducir los bucles adicionales, 
 aumenté el tiempo en el que acumulador estaba siendo modificado. 
