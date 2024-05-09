@@ -56,5 +56,5 @@ que obtendría sin ellos.
 
 ### 2-b Viendo la figura como sería para el problema de las hamburguesas con 2 comensales y 8 hamburgesas.
 
-![punto2b](./TP3/WhatsApp%20Image%202024-05-07%20at%206.40.21%20PM.jpeg) 
+![punto2b](./TP3/WhatsApp%20Image%202024-05-09%20at%204.08.24%20PM.jpeg) 
 
