@@ -20,7 +20,7 @@ void *comer_hamburguesa(void *tid)
         {
             printf("Hola! Soy el hilo(comensal) %d, me voy a comer una hamburguesa! Todavía quedan %d \n", (int)tid, cantidad_restante_hamburguesas);
             cantidad_restante_hamburguesas--; // Me como una hamburguesa
-            turno = (turno + 1) % NUMBER_OF_THREADS; // coloque el codigo aqui
+            
         }
         else
         {
@@ -28,7 +28,7 @@ void *comer_hamburguesa(void *tid)
             turno = (turno + 1)% NUMBER_OF_THREADS;
             pthread_exit(NULL); // Forzar terminación del hilo
         }
-        
+        turno = (turno + 1) % NUMBER_OF_THREADS; // coloque el codigo aqui
          
         // SALIDA DE LA ZONA CRÍTICA
     }
@@ -58,4 +58,3 @@ int main(int argc, char *argv[])
 
     pthread_exit(NULL); // Terminar el programa
 }
-
