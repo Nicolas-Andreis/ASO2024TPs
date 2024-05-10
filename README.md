@@ -53,6 +53,9 @@ que obtendría sin ellos.
 
 
 ### 2-a se encuentra con el nombre hamburguesas-corregio.
+#### explicacion de cambio de turno 
+-un cambio de turno lo puse antes de salir de la zona critica. Lo hice asi para que cuando un hilo come una hamburguesa deba pasar al otro turno para que pueda entrar en la seccion critica y comer una hamburguesa.                                                                            
+-si no quedan hamburguesas entra al else, alli pongo el cambio de turno y paso al turno siguiente para que no se quede en un bucle infinito mirando la bandeja vacia
 
 ### 2-b Viendo la figura como sería para el problema de las hamburguesas con 2 comensales y 8 hamburgesas.
 
