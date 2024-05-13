@@ -114,11 +114,10 @@ sudo apt install gcc
 ### Resumen del Trabajo Práctico N°3
 **Tecnologias utilizadas**
 
-<img src="./logosReadme/Python.png" alt="ejercicio2" width="50" style="margin-right: 10px;" />
-<img src="./logosReadme/C_Logo.png" alt="ejercicio2" width="50" style="margin-right: 10px;" />
-<img src="./logosReadme/ubuntu.png" alt="ejercicio2" width="65" style="margin-right: 10px;" />
-<img src="./logosReadme/Git-logo.svg.png" alt="ejercicio2" width="100" style="margin-right: 10px;" />
-<img src="./logosReadme/GitHub-Logo.png" alt="ejercicio2" width="100" style="margin-right: 10px;" />
+| <img src="./logosReadme/Python.png" alt="Python" width="50" style="margin-right: 10px;" /> | <img src="./logosReadme/C_Logo.png" alt="C" width="50" style="margin-right: 10px;" /> | <img src="./logosReadme/ubuntu.png" alt="Ubuntu" width="75" style="margin-right: 10px;" /> | <img src="./logosReadme/Git-logo.svg.png" alt="Git" width="75" style="margin-right: 10px;" /> | <img src="./logosReadme/GitHub-Logo.png" alt="GitHub" width="100" style="margin-right: 10px;" /> |
+|:--------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|
+|                                                      Python                                                          |                                                            C                                                           |                                                           Ubuntu                                                          |                                                             Git                                                          |                                                            GitHub                                                         |
+
 
 #### 1) Ejecución y análisis de códigos Python:
 
