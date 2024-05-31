@@ -197,3 +197,30 @@ que obtendría sin ellos.
 
 ![punto2b](./TP3/esquema.jpeg) 
 
+
+## TP4
+### Resumen del Trabajo Práctico N°4
+
+El trabajo práctico consistió en configurar servicios web básicos usando Docker Compose y clonar parcialmente un sitio web. Se clonó un repositorio, se arrancaron los servicios, se accedió a ellos a través del navegador y se clonó el sitio de la facultad. Se tomaron capturas de pantalla como evidencia y se entregaron en un repositorio.
+
+### 4-a.
+
+- Luego de clonar el repositorio, mostrar
+con captura de pantalla la creación de los servicios y que los servicios están corriendo vía docker-compose ps.
+
+
+![punto4a](./TP4/docker-compose%20ps.jpeg)
+
+### 4-b.
+- Mostrar los sitio que crean los servicios phpmyadmin y
+nginx con capturas de pantalla de un navegador web.
+![punto4ba](./TP4/phoadmin.jpeg)
+
+![punto4bb](./TP4/html.jpeg)
+
+### 4-c.
+
+- Luego de clonar el sitio de la facultad, mostrar que está corriendo en forma local
+
+
+![punto4c](./TP4/sitiofacultad.jpeg)
