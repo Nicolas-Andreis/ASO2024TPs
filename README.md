@@ -209,18 +209,18 @@ El trabajo práctico consistió en configurar servicios web básicos usando Dock
 con captura de pantalla la creación de los servicios y que los servicios están corriendo vía docker-compose ps.
 
 
-![punto4a](./TP4/docker-compose%20ps.jpeg)
+![punto4a](./TP4/dockerpscortada.jpg)
 
 ### 4-b.
 - Mostrar los sitio que crean los servicios phpmyadmin y
 nginx con capturas de pantalla de un navegador web.
-![punto4ba](./TP4/phoadmin.jpeg)
+![punto4ba](./TP4/phprecortada.jpg)
 
-![punto4bb](./TP4/html.jpeg)
+![punto4bb](./TP4/htmlrecortada.jpg)
 
 ### 4-c.
 
 - Luego de clonar el sitio de la facultad, mostrar que está corriendo en forma local
 
 
-![punto4c](./TP4/sitiofacultad.jpeg)
+![punto4c](./TP4/webrecortada.jpg)
