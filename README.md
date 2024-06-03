@@ -162,29 +162,11 @@ Estos tiempos validan la ventaja de utilizar hilos para
 total del proceso.
 
 ### 1-c-Ejecutar el archivo suma_rasta.py unas 10 veces, luego descomentar(borrar el #) las líneas 11,12,19 y 20 guardarlo y ejecutarlo otras 10veces. ¿Qué pasó? ¿Por qué?
-Cuando ejecuté el archivo suma_rasta.py unas 10 veces, todo parecía estar
- bien. Pero luego me pidieron que descomentara esas líneas específicas en 
-el código y lo ejecutara otras 10 veces más.
+El programa consiste en dos hilos que se ejecutan en paralelo: uno realiza sumas y el otro restas. Ambos hilos utilizan una variable global llamada acumulador, que representa una zona crítica. Los hilos compiten por acceder y modificar este recurso compartido sin ningún tipo de control de concurrencia, lo que provoca una condición de carrera.
 
-Después de hacer eso, noté que el tiempo que tomaba completar el programa 
-era más largo. ¿Por qué? Bueno, resulta que cuando descomenté esas líneas,
- agregué dos bucles adicionales que no estaban haciendo nada útil,
- solo estaban pasando el tiempo con un pequeño retraso.
+La intención es que, al final de la ejecución de ambos hilos, el valor de acumulador sea cero. Sin embargo, debido a la condición de carrera, se obtienen valores incorrectos. Esto ocurre porque ambos hilos están accediendo y modificando la variable global simultáneamente sin ninguna sincronización, lo que lleva a resultados inconsistentes.
 
-Estos bucles estaban dentro de las funciones sumador y restador, y cada 
-uno se ejecutaba mil veces. Aunque cada iteración de estos bucles no hacía 
-nada relevante, sumaba tiempo total de ejecución del programa.
-
-Entonces, en resumen, el tiempo de ejecución aumentó porque añadí estas 
-iteraciones adicionales.
-Ahora, respecto al cambio en el valor final, ocurrió debido a este 
-tiempo adicional de ejecución. Al introducir los bucles adicionales, 
-aumenté el tiempo en el que acumulador estaba siendo modificado. 
-Esto significaba que entre cada incremento y decremento de acumulador, 
-había mil iteraciones adicionales que estaban ocurriendo. Durante este 
-tiempo, el valor de acumulador estaba siendo afectado por la lógica dentro 
-de esos bucles adicionales, lo que resultó en un valor final diferente al 
-que obtendría sin ellos.
+Cuando se descomentan ciertas líneas de código, un hilo entra en un bucle de 1000 iteraciones antes de que el otro hilo comience su ejecución. Este retraso hace que la condición de carrera (race condition) sea más visible, pero el problema subyacente persiste  si esas lineas estan descomentadas. La falta de control sobre el acceso concurrente a la variable global provoca errores en el valor final de acumulador.
 
 
 ### 2-a.
