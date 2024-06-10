@@ -206,3 +206,34 @@ nginx con capturas de pantalla de un navegador web.
 
 
 ![punto4c](./TP4/webrecortada.jpg)
+
+
+## TP5
+### Resumen del Trabajo Práctico N°5
+El Trabajo Práctico Nº 5 de Bash scripting consta de ocho partes que abordan diferentes ejercicios para practicar el uso de scripts en Bash. Estos ejercicios van desde la creación de juegos simples como "Adivina el Número" y "Piedra, Papel o Tijeras", hasta la implementación de herramientas útiles como una calculadora simple y un contador de palabras en archivos de texto. Además, incluye tareas más avanzadas como el uso de APIs para obtener información del clima actual de una ciudad y determinar el género y la edad probable de un nombre ingresado por el usuario mediante consultas a servicios web externos. Este práctico proporciona una variedad de desafíos para desarrollar habilidades en scripting de Bash y trabajar con APIs.
+
+### paso a paso
+ 1 instalar 
+- sudo apt-get install curl jq
+
+2 crear un archivo sh 
+- nano ejercicioParte1.sh 
+
+3 escribir codigo bash
+
+4 guardar y salir
+
+- ctrl + o (luego enter)
+- ctrl + x (salir)
+
+5 agregar permisos ejecutable 
+- chmod +x ejercicioParte1.sh
+
+6 ejecutar el programa
+- ./ejercicioParte1.sh
+
+### parte 1 - adivina el numero
+![parte 1](./TP5/adivinaelnumero.jpg)
+
+### parte 2 - clima en carhue
+![parte 2](./TP5/climacarhue.jpg)
