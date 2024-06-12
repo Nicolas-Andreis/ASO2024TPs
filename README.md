@@ -237,3 +237,28 @@ El Trabajo Práctico Nº 5 de Bash scripting consta de ocho partes que abordan d
 
 ### parte 2 - clima en carhue
 ![parte 2](./TP5/climacarhue.jpg)
+
+## Como ejecutarlo
+#### 1. Instalar Git (si no está instalado)
+- sudo apt-get update
+- sudo apt-get install git
+
+#### 2. Clonar el repositorio
+- git clone https://github.com/Nicolas-Andreis/ASO2024TPs.git
+
+#### 3. Navegar al directorio del proyecto
+- cd ASO2024TPs
+
+#### 4. Navegar al directorio TP5
+- cd TP5
+
+#### 5. Instalar dependencias
+- sudo apt-get install curl jq
+
+#### 6. Dar permisos de ejecución al script (si es necesario)
+- chmod +x ejercicioParte1.sh
+- chmod +x ejercicioParte2.sh
+
+#### 7. Ejecutar el script a eleccion
+- ./ejercicioParte1.sh
+- ./ejercicioParte2.sh
